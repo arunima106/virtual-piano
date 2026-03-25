@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+  font-family: Arial;
+  background-color: rgb(173, 63, 228);
+}
+
+.piano {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.key {
+  width: 60px;
+  height: 200px;
+  border: 3px solid black;
+  margin: 5px;
+  background: rgb(241, 156, 189);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.key.active {
+  background: lightblue;
+}
